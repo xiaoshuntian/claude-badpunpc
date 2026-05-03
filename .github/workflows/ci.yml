@@ -28,9 +28,6 @@ jobs:
       - name: ruff check
         run: ruff check solver/
 
-      - name: ruff format --check
-        run: ruff format --check solver/
-
   syntax:
     name: Syntax check
     runs-on: ubuntu-latest

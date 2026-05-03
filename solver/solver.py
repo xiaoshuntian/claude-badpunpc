@@ -12,21 +12,21 @@ BadPunPC 全自动解题器
 中止: Ctrl+C
 """
 
+import base64
+import json
 import os
 import sys
-import json
 import time
-import base64
 from io import BytesIO
 from pathlib import Path
 
 try:
-    from anthropic import Anthropic
-    import pyautogui
-    import pyperclip
-    import pygetwindow as gw
-    from PIL import Image
     import mss
+    import pyautogui
+    import pygetwindow as gw
+    import pyperclip
+    from anthropic import Anthropic
+    from PIL import Image
 except ImportError as e:
     sys.exit(f"缺依赖: {e}\n  pip install anthropic pillow pyautogui pyperclip pygetwindow mss")
 
@@ -175,7 +175,8 @@ class GameUI:
         if not wins:
             raise RuntimeError(f"找不到窗口 '{WINDOW_TITLE}'")
         w = wins[0]
-        if w.isMinimized: w.restore()
+        if w.isMinimized:
+            w.restore()
         w.activate()
         time.sleep(0.3)
 
@@ -297,7 +298,7 @@ def solve_one(ui: GameUI, solver: Solver) -> bool:
             ui.use_hint_step()
             used_hint = True
         elif action == "skip":
-            print(f"  ⏭ AI 建议跳过")
+            print("  ⏭ AI 建议跳过")
             return False
         else:
             cand = plan["candidates"][0]
@@ -314,7 +315,8 @@ def solve_one(ui: GameUI, solver: Solver) -> bool:
             for h in reversed(plan.get("previous_attempts", [])):
                 if all(f["char"] == "green" for f in h["feedback_per_pos"]):
                     answer = h["answer"]
-                    if answer in wrong: wrong.remove(answer)  # 真答案不算错答
+                    if answer in wrong:
+                        wrong.remove(answer)  # 真答案不算错答
                     break
 
             save_entry(no, answer or "?", cat, attempt, wrong, used_hint,
