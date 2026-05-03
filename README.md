@@ -80,7 +80,7 @@
 
 - Windows 10/11
 - Python 3.9+
-- BadPunPC（Steam 上购买）
+- 这是谐音梗（Steam 上购买）
 - Anthropic API Key（[在这申请](https://console.anthropic.com/)，免费送 $5 够刷 60+ 题）
 
 ### 1. 配置游戏
