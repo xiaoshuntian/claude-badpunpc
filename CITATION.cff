@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "如果本项目对你的工作或研究有帮助，欢迎按下面的元数据引用。"
+title: "claude-badpunpc: 让 Claude 自动通关《这是谐音梗》"
+abstract: >
+  一个让 Claude 看截图、推中文谐音、键盘输入答案的全自动解题器，针对
+  Steam 游戏《这是谐音梗》(BadPunPC)。包含完整的视觉-语言-反馈推理闭环
+  与提示词工程实践。
+authors:
+  - alias: xiaoshuntian
+type: software
+version: "0.1.0"
+date-released: "2026-05-03"
+license: MIT
+repository-code: "https://github.com/xiaoshuntian/claude-badpunpc"
+url: "https://github.com/xiaoshuntian/claude-badpunpc"
+keywords:
+  - claude
+  - anthropic
+  - vision-language-model
+  - chinese-puns
+  - puzzle-game
+  - automation
+  - prompt-engineering

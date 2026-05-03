@@ -1,0 +1,83 @@
+name: Bug 报告
+description: 解题器跑挂了 / 推理结果不对 / 输入失败
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢报 bug！请尽量填全下面字段，方便定位。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 出了什么问题
+      description: 一句话描述现象
+      placeholder: 例：跑到第 7 题时 pyautogui 抛异常，进程退出
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 启动游戏，停在第 X 题
+        2. `python solver.py`
+        3. 看到 ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+      placeholder: 应该正常提交答案并继续
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 截图 / Claude 返回
+      description: 贴 `solver_log.md` 相关片段，或截图
+      render: shell
+
+  - type: input
+    id: env-os
+    attributes:
+      label: 操作系统
+      placeholder: Windows 11 22H2
+    validations:
+      required: true
+
+  - type: input
+    id: env-python
+    attributes:
+      label: Python 版本
+      placeholder: 3.11.7
+    validations:
+      required: true
+
+  - type: input
+    id: env-model
+    attributes:
+      label: Claude 模型
+      placeholder: claude-sonnet-4-6
+    validations:
+      required: true
+
+  - type: input
+    id: env-resolution
+    attributes:
+      label: 游戏分辨率 / 窗口模式
+      placeholder: 1389x868 全屏
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 自查
+      options:
+        - label: 已设 `ANTHROPIC_API_KEY`
+          required: true
+        - label: Steam 启动选项已加 `--disable-gpu`
+          required: true
+        - label: 已搜过 issues 没找到重复
+          required: true

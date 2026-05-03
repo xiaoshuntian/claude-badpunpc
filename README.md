@@ -2,6 +2,13 @@
 
 > 让 Claude 看图、推谐音、键盘输入答案，全自动通关《这是谐音梗》(BadPunPC)。
 
+[![CI](https://github.com/xiaoshuntian/claude-badpunpc/actions/workflows/ci.yml/badge.svg)](https://github.com/xiaoshuntian/claude-badpunpc/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Claude](https://img.shields.io/badge/Powered%20by-Claude%20Sonnet%204.6-D97757)](https://www.anthropic.com/claude)
+[![Platform: Windows](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 **实战战绩**：29 题 100% 通关，85% 一击命中，AI 推理真实准确率约 100%。
 
 ---
@@ -125,15 +132,19 @@ python solver.py
 ## 📁 项目结构
 
 ```
-badpunpc-ai-solver/
+claude-badpunpc/
 ├── README.md              ← 你正在读
 ├── DESIGN.md              ← 系统设计文档（架构 + 反馈解析 + 风险点）
 ├── STRATEGY.md            ← 解题策略活文档（5 类模板 + 35 对谐音 + 经验日志）
-├── TASKS.md               ← 项目里程碑任务
+├── CHANGELOG.md           ← 版本变更记录
+├── CONTRIBUTING.md        ← 贡献指南
+├── CITATION.cff           ← 学术引用元数据
+├── LICENSE                ← MIT
 ├── answers.jsonl          ← 答案知识库（累积式）
-├── dashboard.html         ← 可视化仪表盘（用浏览器打开）
+├── .github/               ← issue / PR 模板 + CI workflow
 └── solver/
     ├── solver.py          ← 主程序（约 220 行）
+    ├── pyproject.toml     ← 包元数据 + ruff 配置
     ├── requirements.txt   ← Python 依赖
     └── README.md          ← solver 内部使用说明
 ```

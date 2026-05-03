@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 游戏本体
+    url: https://store.steampowered.com/app/3253060/_/
+    about: 《这是谐音梗》(BadPunPC) 在 Steam 商店页 —— 游戏本身的问题请去找原制作组
+  - name: Anthropic API 问题
+    url: https://docs.claude.com/
+    about: Claude API 相关问题（认证、限流、模型行为）请查官方文档
