@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 项目运行时产物
+solver_log.md
+wrong_attempts.jsonl
+*.png
+debug/
+
+# 环境敏感
+.env
+.env.local
+
+# 临时仪表板（productivity skill 生成的，与项目无关）
+dashboard.html
+TASKS.md

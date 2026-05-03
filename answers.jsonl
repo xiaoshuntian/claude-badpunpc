@@ -1,0 +1,29 @@
+{"no": 82, "answer": "票房", "category": "电影术语", "tries": 1, "first_try": true, "ts": "2026-05-03T10:35"}
+{"no": 83, "answer": "油麦菜", "category": "食物", "tries": 4, "first_try": false, "wrong_attempts": ["麻辣烫", "自助餐", "鱿鱼丝"], "used_hint": true, "ts": "2026-05-03T10:46"}
+{"no": 84, "answer": "过目不忘", "category": "成语", "tries": 2, "first_try": false, "wrong_attempts": ["汪洋大海"], "used_hint": true, "ts": "2026-05-03T10:53", "pun_note": "上图狗汪汪叫;下图不再叫=不汪→谐音不忘 (wāng→wàng)"}
+{"no": 85, "answer": "韩信", "category": "历史人物", "tries": 1, "first_try": true, "ts": "2026-05-03T10:57", "pun_note": "冻成冰的信=寒信→韩信(同音同调 hán)"}
+{"no": 86, "answer": "淀粉肠", "category": "食物", "tries": 2, "first_try": false, "wrong_attempts": ["火腿肠"], "used_hint": true, "ts": "2026-05-03T11:01", "pun_note": "被电 (diàn) 的肠 → 淀 (diàn) 粉肠，同音同调；粉色对应淀粉肠"}
+{"no": 87, "answer": "碌碌无为", "category": "成语", "tries": 1, "first_try": false, "wrong_attempts": [], "used_hint": true, "ts": "2026-05-03T11:05", "pun_note": "双重谐音: 鹿鹿(lù lù)→碌碌; 无围(巾)→无为(wéi)"}
+{"no": 88, "answer": "导演", "category": "职业", "tries": 1, "first_try": true, "ts": "2026-05-03T11:06", "pun_note": "演员倒立=倒演 (dào yǎn) → 导演 (dǎo yǎn) 同音异调"}
+{"no": 89, "answer": "鸡尾酒", "category": "饮品", "tries": 1, "first_try": true, "ts": "2026-05-03T11:24", "pun_note": "5只鸡围着酒杯=鸡围酒→鸡尾酒(围 wéi→尾 wěi 同音异调,复用 No.87 模板)"}
+{"no": 90, "answer": "天网恢恢", "category": "成语", "tries": 1, "first_try": true, "ts": "2026-05-03T11:25", "pun_note": "天空拿网抓小灰灰=天网灰灰→天网恢恢(灰 huī→恢 huī同音同调)"}
+{"no": 91, "answer": "沈阳", "category": "地名", "tries": 1, "first_try": true, "ts": "2026-05-03T11:26", "pun_note": "太阳被审问→把'太'换成'审'同音的'沈'→沈阳(地名)"}
+{"no": 92, "answer": "方程式", "category": "数学", "tries": 2, "first_try": false, "wrong_attempts": ["正方形"], "used_hint": false, "ts": "2026-05-03T11:28", "pun_note": "西红柿变方→方+程+式 (柿shì→式shì同音同调); 第一枪正方形给出橙色'方'锁定方向"}
+{"no": 93, "answer": "求同存异", "category": "成语", "tries": 1, "first_try": true, "ts": "2026-05-03T11:30", "pun_note": "球童存1亿→求同存异 (球qiú→求, 童tóng→同, 存=存款, 亿yì→异 全同音同调)"}
+{"no": 94, "answer": "挂科", "category": "校园生活", "tries": 1, "first_try": true, "ts": "2026-05-03T11:31", "pun_note": "科学家被挂衣架=挂+科(科学家首字)→挂科(校园术语)"}
+{"no": 95, "answer": "下水道", "category": "基础设施", "tries": 1, "first_try": true, "ts": "2026-05-03T11:35", "pun_note": "强盗抢水稻=下手+水道(稻dào→道dào同音)→下水道"}
+{"no": 96, "answer": "花言巧语", "category": "成语", "tries": 1, "first_try": true, "ts": "2026-05-03T11:36", "pun_note": "花跟巧克力说话=花+言+巧(克力)+语→花言巧语 (4字全字映射)"}
+{"no": 97, "answer": "敦煌", "category": "地名", "tries": 1, "first_try": true, "ts": "2026-05-03T11:37", "pun_note": "黄树墩=黄+墩→敦+煌→敦煌(墩dūn→敦dūn, 黄huáng→煌huáng全同音同调)"}
+{"no": 98, "answer": "侏罗纪", "category": "地质时期", "tries": 1, "first_try": true, "ts": "2026-05-03T11:38", "pun_note": "猪写逻辑学=猪zhū+逻luó+记jì → 侏罗纪 (全字同音同调)"}
+{"no": 99, "answer": "匪夷所思", "category": "成语", "tries": 1, "first_try": true, "ts": "2026-05-03T11:39", "pun_note": "匪徒+咦+锁+思考=匪+夷(咦yí同音)+所(锁suǒ同音)+思→匪夷所思"}
+{"no": 100, "answer": "陀螺", "category": "玩具", "tries": 2, "first_try": false, "wrong_attempts": ["陀螂(unicode转义笔误)"], "used_hint": false, "ts": "2026-05-03T11:41", "pun_note": "驼背老人背萝卜=驼+萝→陀+螺(全字同音同调)。注: 错答源于操作笔误而非推理错误"}
+{"no": 101, "answer": "三字经", "category": "国学", "tries": 1, "first_try": true, "ts": "2026-05-03T11:42", "pun_note": "3只紫鲸=三+字(紫zǐ→字zì同音异调)+经(鲸jīng同音同调)"}
+{"no": 102, "answer": "煽风点火", "category": "成语", "tries": 2, "first_try": false, "wrong_attempts": ["熙风点火(笔误)"], "used_hint": false, "ts": "2026-05-03T11:43", "pun_note": "山峰点柴火=山shān→煽shān+峰fēng→风fēng+点+火 (4字全字映射)"}
+{"no": 103, "answer": "马蜂", "category": "动物", "tries": 1, "first_try": false, "wrong_attempts": [], "used_hint": true, "ts": "2026-05-03T11:45", "pun_note": "马在精神病院发疯=马+疯fēng→马+蜂fēng(同音同调)=马蜂"}
+{"no": 104, "answer": "设计师", "category": "职业", "tries": 1, "first_try": true, "ts": "2026-05-03T11:46", "pun_note": "狮子射箭打鲫鱼=射shè+鲫jì+狮shī→设+计+师 (3字全同音同调)"}
+{"no": 105, "answer": "快马加鞭", "category": "成语", "tries": 1, "first_try": false, "wrong_attempts": [], "used_hint": true, "ts": "2026-05-03T11:48", "pun_note": "筷子夹小马偶+鞭炮=筷kuài→快+马+夹jiā→加+鞭(炮)→快马加鞭"}
+{"no": 106, "answer": "进步", "category": "评价", "tries": 2, "first_try": false, "wrong_attempts": ["不行"], "used_hint": true, "ts": "2026-05-03T11:51", "pun_note": "步被禁=禁jìn→进jìn(同音同调)+步→进步 反讽梗"}
+{"no": 107, "answer": "鸡公煲", "category": "食物", "tries": 2, "first_try": false, "wrong_attempts": ["鸡公煋(unicode笔误)"], "used_hint": false, "ts": "2026-05-03T11:53", "pun_note": "鸡攻城堡=鸡+攻gōng→公gōng+堡bǎo→煲bāo→鸡公煲"}
+{"no": 108, "answer": "一鼓作气", "category": "成语", "tries": 1, "first_try": false, "wrong_attempts": [], "used_hint": true, "ts": "2026-05-03T11:55", "pun_note": "骨头在气球上=骨gǔ→鼓gǔ+气(球)→一鼓作气"}
+{"no": 109, "answer": "魔术", "category": "娱乐", "tries": 1, "first_try": true, "ts": "2026-05-03T11:56", "pun_note": "馍长树上=馍mó→魔+树shù→术(全字同音同调)"}
+{"no": 110, "answer": "程咬金", "category": "历史人物", "tries": 1, "first_try": true, "ts": "2026-05-03T11:57", "pun_note": "橙子咬金子=橙chéng→程+咬+金→程咬金(唐将)"}
